@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <PreferenceCategory app:title="Battery Settings">
+
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="Battery Percentage" />
+
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment"
+            app:summaryOff="Low Power Mode reduces performance and networking activity to extend battery life."
+            app:summaryOn="Low Power Mode reduces performance and networking activity to extend battery life."
+            app:title="Low Power Mode" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

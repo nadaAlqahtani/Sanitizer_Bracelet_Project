@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sanitizer Bracelet</string>
+    <string name="title_activity_time">Time</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Edit</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Sterilization Timing </string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Automatic Sterilization</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_battery">Battery</string>
+    <string name="title_activity_customer__service">Customer_Service</string>
+</resources>
